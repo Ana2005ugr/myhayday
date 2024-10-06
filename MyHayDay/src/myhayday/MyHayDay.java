@@ -3,29 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package myhayday;
+import modelos.Trigo;
 
 /**
  *
  * @author pc
  */
-public class Trigo {
-
+public class MyHayDay{
     /**
      * @param args the command line arguments
      */
-    public static final String ICONO = "/img/trigo.png";
-    public static final int DURACION = 2;
-    public static final int EXPERIENCIA =1;
-    public static final int PRECIO_VENTA = 2;
-    public static final int RIEGO = 10;
-    
-    private String icono;
-    private int duracionProduccion;
-    private int experienciaRecolecta;
-    private int precioVenta;
-    private int riego;
+
     public static void main(String[] args) {
         // TODO code application logic here
+        Trigo trigo1 = new Trigo("./hola.txt", 1, 2, 3, 4);
+        
+        
     }
-    
 }

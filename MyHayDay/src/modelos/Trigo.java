@@ -30,5 +30,46 @@ public class Trigo {
         this.precioVenta = precioVenta;
     }
     
+    public Trigo(){
+        this(ICONO,DURACION,EXPERIENCIA, PRECIO_VENTA, RIEGO);
+    }
     
+    public Trigo(Trigo otro){
+        this(otro.icono, otro.duracionProduccion, otro.experienciaRecolecta, otro.precioVenta, otro.riego);
+    }
+    
+    public String geticono(){
+        return icono;
+    }
+    public void seticono(){
+        this.icono = icono;
+    }
+
+    public int getDuracionProduccion() {
+        return duracionProduccion;
+    }
+    public void setDuracionProduccion(int duracionProduccion) {
+        this.duracionProduccion = duracionProduccion;
+    }
+    
+    public int getexperienciaRecolecta(){
+        return experienciaRecolecta;
+    }
+    public void setexperienciaRecolecta(int experienciaRecolecta){
+        this.experienciaRecolecta = experienciaRecolecta;
+    }
+    
+    public int getprecioVenta(){
+        return precioVenta;
+    }
+    public void setprecioVenta(){
+        this.precioVenta = precioVenta;
+    }
+    
+    public int setRiego(){
+        return riego;
+    }
+    public void getriego(){
+        this.riego = riego;
+    }
 }

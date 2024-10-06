@@ -66,10 +66,10 @@ public class Trigo {
         this.precioVenta = precioVenta;
     }
     
-    public int setRiego(){
+    public int getRiego(){
         return riego;
     }
-    public void getriego(){
+    public void setRiego(){
         this.riego = riego;
     }
 }
